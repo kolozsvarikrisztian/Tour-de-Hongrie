@@ -43,7 +43,7 @@ gyoztesek[41]="Valter Attila (HUN),18:45:55;Simmons Quinn (USA),+12 mp;Howson Da
 
 function listaelem(eredmeny){
   if (eredmeny.includes("(HUN)")) {
-    return "<em>"+eredmeny.replace(",","<br>")+"</em>";
+    return "<strong>"+eredmeny.replace(",","<br>")+"</strong>";
   } 
   else
   {
