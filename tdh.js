@@ -53,6 +53,7 @@ function listaelem(eredmeny){
 
 function frissit(){
     var sorsz = document.getElementById('verseny').value;
+    document.getElementById('sorszam').innerText = sorsz;
     document.getElementById('hely1').innerHTML = listaelem(gyoztesek[sorsz].split(";")[0]); 
     document.getElementById('hely2').innerHTML = listaelem(gyoztesek[sorsz].split(";")[1]); 
     document.getElementById('hely3').innerHTML = listaelem(gyoztesek[sorsz].split(";")[2]); 
